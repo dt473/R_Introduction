@@ -76,3 +76,5 @@ ggplot(data = gapminder_df, mapping = aes(x = year, y = lifeExp, group = country
 ```{r histogram, message = FALSE, fig.width = 10}
 ggplot(data = gapminder_df, mapping = aes(x = pop)) + geom_histogram() 
 ```
+
+Adding some new lines because now we are on git.
